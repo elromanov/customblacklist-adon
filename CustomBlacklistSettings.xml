@@ -1,0 +1,22 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML/UI.xsd">
+    <Frame name="CustomBlacklistOptionsPanel">
+        <CheckButton name="CustomBlacklistEnableCheckbox" inherits="OptionsCheckButtonTemplate">
+            <Size>
+                <AbsDimension x="26" y="26"/>
+            </Size>
+            <Anchors>
+                <Anchor point="TOPLEFT" relativeTo="CustomBlacklistOptionsPanel" relativePoint="TOPLEFT" x="10" y="-40"/>
+            </Anchors>
+            <Text>
+                <FontString inherits="GameFontNormal" text="Enable CustomBlacklist"/>
+            </Text>
+            <Scripts>
+                <OnLoad>
+                    AutoGrats_CheckButton_OnLoad(self);
+                </OnLoad>
+            </Scripts>
+        </CheckButton>
+    </Frame>
+</Ui>

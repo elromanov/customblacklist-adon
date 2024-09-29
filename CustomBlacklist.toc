@@ -1,0 +1,9 @@
+## Interface: 11503
+## Title: CustomBlacklist
+## Notes: Keep track of a list of blacklisted players.
+## Author: Romanov
+## Version: 1.0.1
+## SavedVariables: customBlacklistSavedData
+
+CustomBlacklist.lua
+CustomBlacklistSettings.xml
